@@ -1,6 +1,7 @@
 {
   "name": "hexlet-hello-world",
   "version": "1.0.0",
+  "type": "module",
   "package": "module",
   "description": "js first edu project",
   "main": "index.js",
@@ -8,5 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
